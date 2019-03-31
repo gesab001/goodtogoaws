@@ -1,0 +1,5 @@
+!/usr/bin/env python
+import ssl; 
+for i in dir(ssl): 
+    if i.startswith("PROTOCOL"): 
+          print(i)
